@@ -3,6 +3,11 @@
 **Reproducibility code companion for the manuscript**  
 **_Spectral and Parameter Sensitivity Analysis of Koopman–HAVOK Reduced-Order Models for Chaotic Chua Dynamics_**
 
+[![DOI](https://zenodo.org/badge/1340288797.svg)](https://doi.org/10.5281/zenodo.22022181)
+
+**Archived release:** v1.0.0  
+**Release DOI:** https://doi.org/10.5281/zenodo.22022182
+
 **Authors**  
 Md. Zaid Hossain — Khulna University of Engineering and Technology (KUET)  
 Borhan Ul Arif — Southeast University  
@@ -22,10 +27,11 @@ This repository contains the curated computational notebooks used for the RC-HAV
 - **Canonical packaging source:** `Notebook.zip`
 - **Notebook source cells:** preserved byte-for-byte during repository packaging
 - **Notebook integrity:** SHA-256 hashes provided in `SHA256SUMS.txt` and `docs/SOURCE_MANIFEST.csv`
-- **GitHub repository:** `koopman-rc-havok-chua-reproducibility`
-- **Zenodo DOI:** to be added after the first archived GitHub release
-- **License:** to be added before archival release
-
+- **GitHub repository:** `https://github.com/mdzaideng/koopman-rc-havok-chua-reproducibility`
+- **Archived release:** `v1.0.0`
+- **Release DOI:** `https://doi.org/10.5281/zenodo.22022182`
+- **All-versions DOI:** `https://doi.org/10.5281/zenodo.22022181`
+- **License:** BSD 3-Clause
 The repository intentionally excludes superseded, duplicate, smoke-test, and split-intermediate notebooks. See [`docs/FILE_SELECTION.md`](docs/FILE_SELECTION.md) for the full selection rationale.
 
 ---
