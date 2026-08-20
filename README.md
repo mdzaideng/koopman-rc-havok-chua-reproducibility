@@ -27,11 +27,12 @@ This repository contains the curated computational notebooks used for the RC-HAV
 - **Canonical packaging source:** `Notebook.zip`
 - **Notebook source cells:** preserved byte-for-byte during repository packaging
 - **Notebook integrity:** SHA-256 hashes provided in `SHA256SUMS.txt` and `docs/SOURCE_MANIFEST.csv`
-- **GitHub repository:** `https://github.com/mdzaideng/koopman-rc-havok-chua-reproducibility`
+- **GitHub repository:** https://github.com/mdzaideng/koopman-rc-havok-chua-reproducibility
 - **Archived release:** `v1.0.0`
-- **Release DOI:** `https://doi.org/10.5281/zenodo.22022182`
-- **All-versions DOI:** `https://doi.org/10.5281/zenodo.22022181`
+- **Release DOI:** https://doi.org/10.5281/zenodo.22022182
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.22022181
 - **License:** BSD 3-Clause
+
 The repository intentionally excludes superseded, duplicate, smoke-test, and split-intermediate notebooks. See [`docs/FILE_SELECTION.md`](docs/FILE_SELECTION.md) for the full selection rationale.
 
 ---
@@ -135,6 +136,7 @@ When comparing numerical values across notebooks, use each notebook's own printe
 ```text
 koopman-rc-havok-chua-reproducibility/
 ├── README.md
+├── LICENSE
 ├── requirements.txt
 ├── SHA256SUMS.txt
 ├── .gitignore
@@ -415,14 +417,17 @@ When describing or reusing results from these notebooks, preserve the following 
 
 ## Data and code availability
 
-The manuscript and no-code Supplementary Material use this repository as the implementation companion. After the public GitHub repository is finalized, the intended archival workflow is:
+The reproducibility code supporting this study is publicly available on GitHub:
 
-1. create a versioned GitHub release;
-2. archive that release with Zenodo;
-3. add the permanent Zenodo DOI to this README and to the manuscript Data Availability Statement;
-4. keep the GitHub URL for browsing/current development and use the Zenodo DOI for the immutable cited release.
+**GitHub:** https://github.com/mdzaideng/koopman-rc-havok-chua-reproducibility
 
-**Zenodo DOI:** pending first archival release.
+The exact code version associated with the manuscript has been permanently archived in Zenodo:
+
+**Archived version:** v1.0.0  
+**Version DOI:** https://doi.org/10.5281/zenodo.22022182  
+**All-versions DOI:** https://doi.org/10.5281/zenodo.22022181
+
+The GitHub repository is intended for convenient browsing and future development, whereas the Zenodo `v1.0.0` archive provides the immutable version associated with the submitted manuscript.
 
 ---
 
@@ -444,9 +449,15 @@ Email: `mdsarowar.rana@seu.edu.bd`
 
 ## Citation
 
-If you use this repository before the journal article and Zenodo record receive their final bibliographic identifiers, please cite the associated manuscript by title and cite the two foundational RC-HAVOK papers listed under **Scientific context** where relevant.
+If you use the reproducibility code from this study, please cite the archived software release:
 
-After the first Zenodo release, this section should be updated with the permanent repository DOI and the final journal citation.
+**Hossain, M. Z., Arif, B. U., & Rana, M. S. H. (2026).  
+_RC-HAVOK Chua Reproducibility_ (Version 1.0.0). Zenodo.  
+https://doi.org/10.5281/zenodo.22022182**
+
+Please also cite the associated journal article when its final bibliographic information becomes available.
+
+The foundational RC-HAVOK publications listed under **Scientific context** should be cited where methodologically relevant.
 
 ---
 
@@ -473,6 +484,14 @@ Before comparing a rerun against a reported value, verify:
 - [`docs/FILE_SELECTION.md`](docs/FILE_SELECTION.md) — inclusion/exclusion decisions
 - [`docs/ARCHIVE_AUDIT.md`](docs/ARCHIVE_AUDIT.md) — comparison of the two uploaded notebook archives
 - [`docs/SOURCE_MANIFEST.csv`](docs/SOURCE_MANIFEST.csv) — provenance, file sizes, cell counts, execution-output status, and SHA-256 hashes
+
+---
+
+## License
+
+The source code in this repository is released under the **BSD 3-Clause License**.
+
+See [`LICENSE`](LICENSE) for the complete license text.
 
 ---
 
